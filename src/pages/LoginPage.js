@@ -32,8 +32,6 @@ export default function LoginPage() {
 
       setEmail('');
       setPassword('');
-
-      console.log(email, password);
     },
     [email, password, dispatch],
   );
