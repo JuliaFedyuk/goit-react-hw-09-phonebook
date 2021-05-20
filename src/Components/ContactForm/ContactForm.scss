@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.submit_button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  background-color: teal;
+  transition: 0.3s;
+}
+
+.contactform_input {
+  font-size: 18px;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  width: 250px;
+  height: 25px;
+}
+
+.submit_button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  color: white;
+}
